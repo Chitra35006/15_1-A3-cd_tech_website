@@ -1,3 +1,6 @@
+.img_opacity{
+    filter: brightness(50%);
+}
 footer{
     margin-top: 300px;
     padding-top: 80px;
@@ -14,6 +17,7 @@ body{
 }
 .c-text-light{
     color: rgb(145, 137, 137);
+    
 }
 .c-border-danger{
     color:rgb(9, 2, 39) ;
@@ -21,3 +25,27 @@ body{
 .c-icon{
     font-size: 30px;
 }
+/* <<<< Mobile >>>>*/
+ @media only screen and (max-width:688px) {
+
+    .course_part{
+
+        flex-direction: column;
+    }
+    .course_pic{
+        width: 100%;
+    }
+    .seventh_section{
+        display: none;
+    }  
+
+     }
+         /* <<<< Tabs >>>>*/
+ @media only screen and (min-width:688px) and (max-width:992px) {
+    .seventh_section {
+            display: none;
+        }
+      
+    
+    
+    }
