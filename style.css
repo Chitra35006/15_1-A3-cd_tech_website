@@ -9,8 +9,30 @@ footer{
 body{
     font-family: 'Inter', sans-serif;
 }
+.button_SN{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.section_two {
+    height: 500px;
+}
+
+
+.img_slider_static_element_div{
+    height: 500px;
+    width: 1080px;
+    color: white;
+    text-align: center;
+    padding: 15%;
+    position: relative;
+}
+
 .c-bg-danger{
     background-color: rgb(9, 2, 39);
+}
+.c-bg-danger2{
+    background-color: rgb(201, 231, 241);
 }
 .c-text-danger{
     color: rgb(158, 206, 224);
@@ -25,19 +47,26 @@ body{
 .c-icon{
     font-size: 30px;
 }
+.accordion_size{
+    margin-left: 110px;
+    margin-right: 110px;
+}
 /* <<<< Mobile >>>>*/
  @media only screen and (max-width:688px) {
 
-    .course_part{
+    .course_part,.fourth_section{
 
         flex-direction: column;
     }
     .course_pic{
         width: 100%;
     }
-    .seventh_section{
+    .seventh_section,.button_hide{
         display: none;
     }  
+    .accordiona-part,.carousel_part,.carousel_part2{
+        width: 100%;
+    }    
 
      }
          /* <<<< Tabs >>>>*/
@@ -45,7 +74,9 @@ body{
     .seventh_section {
             display: none;
         }
-      
+    .carousel_part,.carousel_part2{
+        width: 100%;
+    }
     
     
     }
