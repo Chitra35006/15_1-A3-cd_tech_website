@@ -1,0 +1,23 @@
+footer{
+    margin-top: 300px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.c-bg-danger{
+    background-color: rgb(9, 2, 39);
+}
+.c-text-danger{
+    color: rgb(158, 206, 224);
+}
+.c-text-light{
+    color: rgb(145, 137, 137);
+}
+.c-border-danger{
+    color:rgb(9, 2, 39) ;
+}
+.c-icon{
+    font-size: 30px;
+}

@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kantumruy+Pro:wght@700&family=Montserrat:wght@400;600;700&family=Poppins&family=Source+Sans+Pro:wght@700&display=swap"
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kantumruy+Pro:wght@700&family=Montserrat:wght@400;600;700&family=Poppins&family=Source+Sans+Pro:wght@700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/40e8ac52ad.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style12.css">
+    
         <title>CD_tech</title>
 </head>
 <body>
@@ -21,33 +21,36 @@
         <div class="container mt-5">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Pro Edu</a>
+                    <a class="navbar-brand fw-bold fs-2" href="#">Pro Edu</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link" aria-current="page" href="#">Features</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">About Us</a>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link" href="#">Our Team</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Pricing</a>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link" href="#">Docs</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Feedback</a>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link" href="#">Tutorial</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ms-3">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item ms-3">
                                 <a class="nav-link" href="#">Sign In</a>
                             </li>
                         </ul>
                        
                     </div>
                     <div>
-                        <button type="button" class="btn border-3 border-danger h-25 bg-light fw-bold text-danger">Sign Up</button>
+                        <button type="button" class="btn border-3 border-info h-25 bg-light fw-bold .c-border-danger">Sign Up</button>
                     </div>
                 </div>
                
@@ -62,12 +65,16 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
     
-                    <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                    <div class="opacity-50">
+                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                    </div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h1 class="display-1 fw-bold">Second slide label</h1>
-                        <p class="h3">Some representative placeholder content for the second slide.</p>
+                        <h1 class="display-3 c-border-danger fw-bold">Get Started Digital
+                        Learning</h1>
+                        <p class="h3 fs-5 c-text-danger">t is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout..</p>
                         <div>
-                            <button type="button" class="btn border-3 border-danger h-25 bg-danger fw-bold text-white">Sign Up</button>
+                            <button type="button" class="btn border-3 border-info h-25 c-bg-danger fw-bold c-text-danger">Sign Up</button>
                         </div>
                     </div>
 
@@ -100,7 +107,7 @@
                 <div>
                     <h1>Discover Our Popular <br>
                     Courses</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable <br>
+                    <p class="c-text-light">It is a long established fact that a reader will be distracted by the readable <br>
                     content of a page when looking at its layout.</p>
                 </div>
             </div>
@@ -117,9 +124,9 @@
                             <div class="col-8">
                                 <div class="p-3">
                                     <h5 class="fw-bold">Fundamental Of UI/UX Design</h5>
-                                    <p>Some quick example text to build on the card title
+                                    <p class="c-text-light">Some quick example text to build on the card title
                                         and make up the bulk of the card.</p>
-                                    <p class="text-danger fw-bold">Price:20$</p>
+                                    <p class="text-primary fw-bold">Price:20$</p>
                                 </div>
                             </div>
                         </div>
@@ -133,9 +140,9 @@
                             <div class="col-8">
                                 <div class="p-3">
                                     <h5 class="fw-bold">Javascript Basic to advanced</h5>
-                                    <p>Some quick example text to build on the card title
+                                    <p class="c-text-light">Some quick example text to build on the card title
                                     and make up the bulk of the card.</p>
-                                    <p class="text-danger fw-bold">Price:20$</p>
+                                    <p class="text-primary fw-bold">Price:20$</p>
                                 </div>
                             </div>
                         </div>
@@ -149,9 +156,9 @@
                             <div class="col-8">
                                 <div class="p-3">
                                     <h5 class="fw-bold">Fullstack Web Development</h5>
-                                    <p>Some quick example text to build on the card title
+                                    <p class="c-text-light">Some quick example text to build on the card title
                                         and make up the bulk of the card.</p>
-                                    <p class="text-danger fw-bold">Price:20$</p>
+                                    <p class="text-primary fw-bold">Price:20$</p>
                                 </div>
                             </div>
                         </div>
@@ -165,9 +172,9 @@
                             <div class="col-8">
                                 <div class="p-3">
                                     <h5 class="fw-bold">Digital Marketing</h5>
-                                    <p>Some quick example text to build on the card title
+                                    <p class="c-text-light">Some quick example text to build on the card title
                                         and make up the bulk of the card.</p>
-                                    <p class="text-danger fw-bold">Price:20$</p>
+                                    <p class="text-primary fw-bold">Price:20$</p>
                                 </div>
                             </div>
                         </div>
@@ -181,9 +188,9 @@
                             <div class="col-8">
                                 <div class="p-3">
                                     <h5 class="fw-bold">Photography Basic Rules</h5>
-                                    <p>Some quick example text to build on the card title
+                                    <p class="c-text-light">Some quick example text to build on the card title
                                         and make up the bulk of the card.</p>
-                                    <p class="text-danger fw-bold">Price:20$</p>
+                                    <p class="text-primary fw-bold">Price:20$</p>
                                 </div>
                             </div>
                         </div>
@@ -197,9 +204,9 @@
                             <div class="col-8">
                                 <div class="p-3">
                                     <h5 class="fw-bold">Motion Graphics</h5>
-                                    <p>Some quick example text to build on the card title
+                                    <p class="c-text-light">Some quick example text to build on the card title
                                         and make up the bulk of the card.</p>
-                                    <p class="text-danger fw-bold">Price:20$</p>
+                                    <p class="text-primary fw-bold">Price:20$</p>
                                 </div>
                             </div>
                         </div>
@@ -208,12 +215,12 @@
                 </div>
             </div>
             <div class="mt-5 text-center">
-                <button type="button" class="btn border-3 border-danger h-25 bg-danger fw-bold text-white">See Other Courses</button>
+                <button type="button" class="btn border-3 border-info h-25 c-bg-danger fw-bold c-text-danger">See Other Courses</button>
             </div>
         </div>
 
         <!--<<<< Fourth Section >>>>-->
-        <div class="container mt-5 bg-danger text-white">
+        <div class="container mt-5 c-bg-danger c-text-danger">
                 <div class="flex-md-column">
                     <div class="d-lg-flex m-5 p-5">
                         <div class="col-6">
@@ -255,7 +262,7 @@
                 <div>
                     <h1>Meet Our Successfull <br>
                     Students</h1>
-                    <p>It is a long established fact that a reader will be distracted by the <br>
+                    <p class="c-text-light">It is a long established fact that a reader will be distracted by the <br>
                     readable content of a page when looking at its layout</p>
             </div>
             
@@ -268,7 +275,7 @@
                         </div>
                         <div class="p-3">
                             <h4>Awlad Hossain</h4>
-                            <p>UIUX Designer</p>
+                            <p class="c-text-light">UIUX Designer</p>
                         </div>
                     </div>
                 </div>
@@ -280,7 +287,7 @@
                         </div>
                         <div class="p-3">
                             <h4>Jannatul Islam</h4>
-                            <p>Motion Design</p>
+                            <p class="c-text-light">Motion Design</p>
                         </div>
                     </div>
                 </div>
@@ -292,7 +299,7 @@
                         </div>
                         <div class="p-3">
                             <h4>Imran Hossain</h4>
-                            <p>Graphic Designer</p>
+                            <p class="c-text-light">Graphic Designer</p>
                         </div>
                     </div>
                 </div>
@@ -304,14 +311,14 @@
                         </div>
                         <div class="p-3">
                             <h4>Nishi Akter</h4>
-                            <p>Web Developer</p>
+                            <p class="c-text-light">Web Developer</p>
                         </div>
                     </div>
                 </div>
                 
             </div>
             <div class="mt-5 text-center">
-                <button type="button" class="btn border-3 border-danger h-25 bg-danger fw-bold text-white">View All 
+                <button type="button" class="btn border-3 border-info h-25 c-bg-danger fw-bold c-text-danger">View All 
                     </button>
             </div>
 
@@ -321,7 +328,7 @@
         <div class="container mt-5">
             <div class="text-center">
                 <h1>Frequently Asked Questions</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable <br>
+                <p class="c-text-light">It is a long established fact that a reader will be distracted by the readable <br>
                     content of a page when looking at its layout.</p>
             </div>
         <!--<<<< Accordion >>>>-->
@@ -330,6 +337,7 @@
                 <div class="ms-5 me-5">
                 <div class="ms-5 me-5">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <!--<<<< 1st Question >>>>-->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -339,10 +347,12 @@
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                                <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            <div class="accordion-body c-text-light">Flexbox is designed for one-dimensional layouts, and Grid for two-dimensional layouts. The approach of CSS Grid is the layout first, while the Flexbox approach is primarily the content.The Flexbox layout is best suited to application components and small-scale layouts, while the Grid layout is designed
+                            for larger-scale layouts that are not linear in design.</div>
                         </div>
                     </div>
+
+                    <!--<<<< 2nd Question >>>>-->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -352,11 +362,11 @@
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
-                                filled with some actual content.</div>
+                            <div class="accordion-body c-text-light"> Bootstrap comes with responsive layouts, components, and utility classes and Tailwind comes with a lot more utility classes than Bootstrap. Bootstrap has limited background and text color but Tailwind has so many option of backgraound and text color. In Tailwind the implementation of hover and focus are so easy than Bootstrap</div>
                         </div>
                     </div>
+
+                    <!--<<<< 3rd Question >>>>-->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -366,20 +376,18 @@
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-                                happening here in terms of content, but just filling up the space to make it look, at least at first
-                                glance, a bit more representative of how this would look in a real-world application.</div>
+                            <div class="accordion-body c-text-light">A CSS box model is a compartment that includes numerous assets, such as edge, border, padding and material. It is used to develop the design and structure of a web page. It can be used as a set of tools to personalize the layout of different components. According to the CSS box model, the web browser supplies each element as a square prism.</div>
                         </div>
                     </div>
+                    <!--<<<< 4th Question >>>>-->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                 <h4>What is Symantic tag?</h4>
                             </button>
                         </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
                                 <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
@@ -428,6 +436,18 @@
         </div>
         </main>
         <!--<<<< Last Section >>>>-->
+        <footer class="mt-5 c-bg-danger">
+            <div class="text-center c-text-danger">
+                <h1>Pro Edu</h1>
+                <h6>Office 41, Zawaya Buildin, Ghala Muscat,<br>
+                    Sultanate of Oman <br> Privacy Ploicy | Terms of use</h6>
+                <div class="c-icon">
+                    <a class="footer_link ms-2" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a class="footer_link ms-2" href="https://bd.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="footer_link ms-2" href="http://www.instragram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
 
             
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
